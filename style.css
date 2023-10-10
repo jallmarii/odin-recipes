@@ -1,0 +1,18 @@
+body {
+  font-family:Helvetica, Arial, sans-serif;
+  color: orange;
+  text-align: center;
+  background-color: black;
+}
+
+/* Make the lists appear in the center and make the dots look ok. Optimized with instructions for both!*/
+ul, ol { 
+  display: inline-block; 
+  text-align: left;
+}
+
+/* Only one image per page so I don't need a <div> container */
+img { 
+  display: block;
+  margin: auto; /* I borrowed this from ChatGPT */
+}
