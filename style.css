@@ -5,14 +5,31 @@ body {
   background-color: black;
 }
 
-/* Make the lists appear in the center and make the dots look ok. Optimized with instructions for both!*/
-ul, ol { 
-  display: inline-block; 
-  text-align: left;
+h1 {
+  font-style:italic;
 }
 
-/* Only one image per page so I don't need a <div> container */
+a { 
+  display: inline-block; 
+  padding: 2em;
+}
+
+button {
+  background-color: orange;
+}
+
+button:hover {
+  background-color: green;
+  transform: scale(1.10);
+}
+
+/* Only one image per page so I can just use the img class */
 img { 
   display: block;
   margin: auto; /* I borrowed this from ChatGPT */
+  margin-top: 2em;
+}
+
+img:hover {
+  transform:rotate(10deg);
 }
